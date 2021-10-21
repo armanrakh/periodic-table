@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Futura-PT;
+    src: url('./fonts/Futura\ PT.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url('./img/bgc.png');
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+}
+
+h1 {
+    font-family: Futura-PT;
+    font-size: 60px;
+    width: 1100px;
+
+    color: white;
+}
+
+.header-text {
+    margin-top: 30px;
+    font-family: Futura-PT;
+    font-size: 26px;
+    width: 800px;
+
+    color: white; 
+}
+
+.mendeleyev {
+    width: 350px;
+    height: 492px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.s-el {
+    background: #17004d;
+}
+
+.s-el:hover {
+    background: #976aff;
+}
+
+.p-el {
+    background: #002652;
+}
+
+.p-el:hover {
+    background: #2a8dff;
+}
+
+.d-el {
+    background: #4d002a;
+}
+
+.d-el:hover {
+    background: #ff50b0;
+}
+
+td > h2 {
+    font-family: Futura-PT;
+}
+
+td > div {
+    display: flex;
+    background: white;
+    border-radius: 50px 0px 0px 0px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    height: 30px;
+    width: 30px;
+    justify-self: left;
+    color: black;
+
+    font-family: Futura-PT;
+}
+
+td > p {
+    margin-bottom: 5px;
+    font-family: Futura-PT; 
+}
