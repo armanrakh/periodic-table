@@ -37,12 +37,17 @@ h1 {
     color: white; 
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+}
+
 .mendeleyev {
     width: 350px;
     height: 492px;
 }
 
-table {
+table, desc {
     border-collapse: collapse;
 }
 
@@ -98,4 +103,122 @@ td > div {
 td > p {
     margin-bottom: 5px;
     font-family: Futura-PT; 
+}
+
+.element {
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc {
+    width: 300px;
+    height: 200px;
+}
+
+.el-title {
+    font-family: Futura-PT;
+    font-size: 24px;
+}
+
+.el-text {
+    font-family: Futura-PT;
+    font-size: 22px;
+}
+
+.el-right {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tri {
+    margin-left: 0px;
+    margin-top: -92px;
+    z-index: 0;
+    border: 50px solid transparent;
+    width: 0;
+    height: 0;
+    border-radius: 0px;
+    background-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.tri2 {
+    margin-left: 200px;
+    margin-top: -94px;
+    border: 50px solid transparent;
+    width: 0;
+    height: 0;
+    border-radius: 0px;
+    background-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+
+.nav {
+    font-family: Futura-PT;
+}
+
+.el {
+    font-family: Futura-PT;
+    color: white;
+    font-size: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.el-color {
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border-radius: 0px;
+    margin-left: 0px;
+}
+
+.el-color:first-child {
+    background: #976aff;
+    color: #976aff;
+}
+
+#two {
+    background: #2a8dff;
+    color: #2a8dff;
+}
+
+#one {
+    background: #ff50b0;
+    color: #ff50b0;
+}
+
+.el-color:last-child {
+    background: #ff8a2a;
+    color: #ff8a2a;
+}
+
+.row1 {
+    margin-top: 20px;
+    margin-left: 0px;
+    background: transparent;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.row2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    background: transparent;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.el-title2 {
+    font-size: 30px;
+}
+
+.cell-title {
+    font-family: Futura-PT;
+    text-align: center;
 }
